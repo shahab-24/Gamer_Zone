@@ -39,3 +39,41 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.youtube{
+  padding:10px 30px;
+}
+
+
+
+@media screen and (max-width: 576px) {
+  
+  .container{
+    width: 570px;
+  }
+  .nav_main{
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 0 auto;
+   font-size: 3rem;
+  }
+
+  .nav_left{
+    font-size: 2.5rem;
+    margin: 50px;
+  }
+  .nav_right{
+    flex-direction: column;
+    line-height: 80px;
+    font-size: 2rem;
+  }
+  .youtube{
+    padding:10px 30px;
+  }
+  
+}
+
+.hide{
+  display: none;
+}
