@@ -15,6 +15,10 @@
 
 /* nav styles starts here */
 
+.nav{
+  background-color: rgb(255, 255, 255);
+}
+
 .nav_main{
   display: flex;
   justify-content: space-between;
@@ -31,4 +35,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  gap: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
